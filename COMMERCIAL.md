@@ -2,7 +2,7 @@
 
 **Product:** PasevSU EvidenceCore
 
-**Model:** Proprietary commercial license; source kept in a private repository until approved for distribution.
+**Model:** Proprietary commercial license; public documentation repository; project-authored source is proposed for public visibility under proprietary commercial terms, but has not yet been uploaded.
 
 **Not configured:** Price tiers, Stripe/PayPal checkout, tax/VAT invoices, key issuing, seat/device binding, renewals, trials, activation APIs and a customer portal. No claim is made that payment currently unlocks the software.
 

@@ -1,0 +1,24 @@
+# Local evidence, generated results, and secrets
+*.eml
+*.pst
+*.ost
+*.pfx
+*.p12
+*.key
+*.pem
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+secrets.*
+evidence/
+casefiles/
+reports/
+output/
+tmp/
+temp/
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db

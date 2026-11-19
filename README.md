@@ -2,11 +2,11 @@
 
 **Commercial Digital Forensics & Evidence Verification Suite**
 
-EvidenceCore is a PowerShell-based analysis and reporting toolkit for digital-evidence folders. The original project was named *ForensicTools / ForensicFiles*. This repository package retains the original forensic engine and accompanying PDF engine without asserting that the system has been independently validated or certified.
+EvidenceCore is a PowerShell-based analysis and reporting toolkit for digital-evidence folders. The original project was named *ForensicTools / ForensicFiles*. **Publication status (2026-11-19): documentation-only public repository snapshot. The principal forensic PowerShell engine, PDF engine and bundled JavaScript dependencies have NOT yet been uploaded to this GitHub repository.** The separately prepared ZIP archive contains the original tools, but it must not be mistaken for files published here. No independent validation or certification is claimed.
 
 > **Commercial proprietary software.** Source availability does not grant permission to use, redistribute, resell, or publish the code. See [LICENSE.md](LICENSE.md) and [COMMERCIAL.md](COMMERCIAL.md). A payment, checkout, or license-key verification service is **not implemented** in this package.
 
-## Features
+## Intended features (in the separately prepared code package)
 
 - Recursive examination of evidence directories and individual files.
 - EML header/MIME inspection, SMTP routing timelines, DKIM body/signature checks and mail metadata analysis.
@@ -23,7 +23,7 @@ EvidenceCore is a PowerShell-based analysis and reporting toolkit for digital-ev
 - Additional executables may be required for specific operations, notably OpenSSL or OpenTimestamps helpers; see [Dependencies](docs/DEPENDENCIES.md).
 - Offline analysis is possible for many formats, but DNS and blockchain validation require explicit network access when used.
 
-## Quick start
+## Quick start (requires files not yet published here)
 
 ```powershell
 # Run from this directory (use a copy of your evidence)
